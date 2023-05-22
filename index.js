@@ -44,7 +44,7 @@ const replaceTemplate = require('./modules/replaceTemplate');
 //   const productData = JSON.parse(data);
 // });
 
-// SETUP
+// PROJECT SETUP
 
 const tempOverview = fs.readFileSync(
   `${__dirname}/templates/template-overview.html`,
